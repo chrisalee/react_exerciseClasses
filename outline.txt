@@ -1,0 +1,30 @@
+MERN Stack - MongoDB, Express, React, Node.js
+
+Class components - 
+
+Exercise Tracker Application
+- MongoDB Atlas database - mongodb+srv://chrislee:<password>@cluster0.796pg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+    -exercises
+    -users
+    (every exercise will have one user)
+
+npx create-react-app client (frontend)
+cd client
+
+create server folder (backend)
+cd server
+npm i express mongoose cors
+    server.js
+    models folder
+        exercise.model.js
+        user.model.js
+    routes folder
+        routes for all exercises, one exercise, update one exercise, delete exercise
+        routes for all users, one user
+
+start react frontend
+    class components
+
+
+
+
